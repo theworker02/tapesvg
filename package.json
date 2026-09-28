@@ -1,0 +1,29 @@
+{
+  "name": "@theworker02/tapesvg",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Tape HTML/Markdown svg fragments safely for docs pipelines.",
+  "bin": {
+    "tapesvg": "src/cli.js"
+  },
+  "main": "./src/index.js",
+  "scripts": {
+    "test": "node --test"
+  },
+  "license": "MIT",
+  "engines": {
+    "node": ">=18"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/theworker02/tapesvg.git"
+  },
+  "homepage": "https://theworker02.github.io/tapesvg/",
+  "keywords": [
+    "tape",
+    "svg",
+    "markup",
+    "cli",
+    "toolkit"
+  ]
+}
